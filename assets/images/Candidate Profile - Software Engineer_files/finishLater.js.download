@@ -1,0 +1,1 @@
+$(document).ready(function(){var a=$("#cp_form_save_i");if(!a.length){a=$("#quesp_form_save_i")}if(!a.length){a=$("#eeop_form_save_i")}if(a.length){a.click(function(){if(typeof dataLayer!=="undefined"){dataLayer.push({event:"saveApplication"})}})}});
