@@ -1,3 +1,20 @@
+document.addEventListener('DOMContentLoaded', function () {
+  let overlay = document.getElementById('overlay');
+  let welcomePopup = document.getElementById('welcome-popup');
+
+  // Show welcome popup on page load
+  overlay.style.display = 'block';
+  welcomePopup.style.display = 'block';
+
+  // Function to close welcome popup
+  window.closeWelcome = function () {
+      overlay.style.display = 'none';
+      welcomePopup.style.display = 'none';
+  };
+});
+
+
+
 'use strict';
 
 
