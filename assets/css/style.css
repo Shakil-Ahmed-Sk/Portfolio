@@ -1881,8 +1881,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 .h12{
-  font-size: smaller;
   color: aliceblue;
+  font-size: smaller;
   margin-left: 10%;
   padding-top: 15%;
 }
