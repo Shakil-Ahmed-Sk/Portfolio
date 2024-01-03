@@ -1,3 +1,4 @@
+alert("This Website is Under Development")
 document.addEventListener('DOMContentLoaded', function () {
   let overlay = document.getElementById('overlay');
   let welcomePopup = document.getElementById('welcome-popup');
